@@ -1,12 +1,21 @@
 {
   "name": "git",
   "version": "1.0.0",
+  "type": "module",
   "description": "--- AIGC:     Label: \"1\"     ContentProducer: 001191440300708461136T1XGW3     ProduceID: 4fc1b81686ea85fd79a0393987fb69db_736e1ea2df5311f189bc525400248c00     ReservedCode1: Z6+EJsRCB6i0M4Mx6g5OJMH/HctMlxe+nnW/tX0Dq7G1N3CY34pl2VFi26LpXWEHi3lds47xL0Mo2rKdCLOCOkG7IFCrKlIM2PMxMcCCjdSjtZJOC4qmMUrAFpvlGbxt938DcJbI8zM4iZir1Rx/bO31Iv/PinB+KfQqAUCdIBfJ4cWPb1c+2qV0bYk=     ContentPropagator: 001191440300708461136T1XGW3     PropagateID: 4fc1b81686ea85fd79a0393987fb69db_736e1ea2df5311f189bc525400248c00     ReservedCode2: Z6+EJsRCB6i0M4Mx6g5OJMH/HctMlxe+nnW/tX0Dq7G1N3CY34pl2VFi26LpXWEHi3lds47xL0Mo2rKdCLOCOkG7IFCrKlIM2PMxMcCCjdSjtZJOC4qmMUrAFpvlGbxt938DcJbI8zM4iZir1Rx/bO31Iv/PinB+KfQqAUCdIBfJ4cWPb1c+2qV0bYk= ---",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
     "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "animejs": "^4.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   }
 }
