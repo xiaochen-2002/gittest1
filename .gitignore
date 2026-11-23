@@ -50,3 +50,5 @@ logs/
 .idea/
 *.swp
 *.swo
+
+backend/.venv/
