@@ -52,3 +52,6 @@ logs/
 *.swo
 
 backend/.venv/
+backend/__pycache__/
+*.pyc
+ 
