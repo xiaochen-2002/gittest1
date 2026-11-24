@@ -34,7 +34,7 @@ logs/
 .env.local
 .env.*.local
 !.env.example
-
+.env*
 # ---- 部署平台本地缓存（npm 命令顺带生成）----
 .vercel/
 .netlify/
